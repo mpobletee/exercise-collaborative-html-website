@@ -4,10 +4,25 @@ body{
     margin: 0;
 }
 .jumbotron {
-    background: url('/website/assets/img/bg.jpg');
+    background-image: url('/website/assets/img/bg.jpg');
     background-size: cover;
-    background-position: center;
+    background-position:center;
+    height: 650px;
+
   }
-  .p1, .p2{
-      background-color: white;      
+  .vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .p1{
+    background-color: white;      
+    font-size: 100px;
+    position: relative;
+  }
+  .p2{
+      background-color: white;
+      font-size: 40px;
+      
   }
